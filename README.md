@@ -1,6 +1,7 @@
 # 1、搭建开发环境
 ## node.js的安装
-    请在官网下载v6.x版本的安装包，angular2的脚手架工具中有些包在高版本中无法安装，如Karma，且低版本对开发者来说更加友好。虚拟桌面中使用的是v6.11.5版本。
+    请在官网下载v6.x版本的安装包，angular2的脚手架工具中有些包在高版本中无法安装，如Karma，且低版本对开发者来说更加友好。虚拟桌面中使用的
+    是v6.11.5版本。
     npm的配置更改，打开cmd命令工具：
     npm config set prefix "P:\Program Files\nodejs\X64\node_global"
     npm config set cache "P:\Program Files\nodejs\X64\node_cache"
