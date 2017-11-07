@@ -40,7 +40,19 @@
     npm install @angular/cli@1.4.9: 根据查询的版本信息，可以选择安装某一版本的包
     npm install @angular/cli@latest ： 安装最新的包
     npm cache clean：清除缓存，若报错选择用管理员身份打开cmd工具再执行。
-# 3、@angular/cli常用命令
+# 3、@angular/cli常用命令   
+        ng --version : 查看版本号
+        ng help : 查看帮助文档
+        ng new my-project : 默认使用css作为样式，若想更改样式，如用sass，可使用ng new my-project --style=sass
+        ng generate component user : 会创建user组件，简写命令ng g c user
+            cl:class
+            c:component
+            d:directive
+            e:enum
+            m:module
+            p:pipe 
+            s:service
+        ng serve : 轻量服务器运行， ng serve --prod --aot，使用生产环境打包，用aot预编译
 # 4、第三方库的引进 
     angular2底层使用的typescript语法，它会无法识别常见的javascript的语法，如jquery.js，它不会识别$('')操作符。 
     需要安装模块： 
